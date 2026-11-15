@@ -52,10 +52,11 @@ O notebook `Projetofinal_EDO.ipynb` segue o raciocínio do trabalho em quatro pa
 
 | Arquivo | Descrição |
 |---|---|
-| `Projetofinal_EDO.ipynb` | Notebook com o código e os textos do projeto |
 | `CapaEDO.png` | Capa do projeto |
 | `LICENSE` | Licença do projeto |
 | `README.md` | Este arquivo |
+| `Projetofinal_EDO.ipynb` | Notebook com o código e os textos do projeto |
+| `Relatório_EDO.pdf` | PDF com relatório do trabalho |
 
 ## Como executar
 

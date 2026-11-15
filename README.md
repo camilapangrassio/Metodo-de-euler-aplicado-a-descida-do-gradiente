@@ -4,16 +4,10 @@
 de Euler e sua aplicação à regressão linear</h1>
 
 <p align="center">
-  <em>Otimização por descida do gradiente: a equivalência com o método de Euler e sua aplicação à regressão linear</em>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/licença-GPL--3.0-green" alt="Licença GPL-3.0">
   <img src="https://img.shields.io/badge/Jupyter-notebook-orange" alt="Jupyter Notebook">
 </p>
-
-Projeto da disciplina de Equações Diferenciais, desenvolvido na Ilum Escola de Ciência (CNPEM).
 
 ## Sobre o projeto
 

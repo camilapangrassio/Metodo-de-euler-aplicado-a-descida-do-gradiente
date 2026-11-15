@@ -1,4 +1,4 @@
-<img width="2535" height="470" alt="CapaEDO" src="https://github.com/user-attachments/assets/2da7d92e-183d-4c36-b1e4-78909c77e9d5" />
+<img width="2535" height="470" alt="Capa_EDO" src="https://github.com/user-attachments/assets/55b30799-c0b6-43c8-8169-27ca1c3b549a" />
 
 <h1 align="center">Otimização por descida do gradiente: a equivalência com o método
 de Euler e sua aplicação à regressão linear</h1>

@@ -27,7 +27,7 @@ Essa é exatamente a atualização da descida do gradiente, com a taxa de aprend
 
 O notebook `Projetofinal_EDO.ipynb` segue o raciocínio do trabalho em quatro partes:
 
-1. **Método de Euler.** Resolve o fluxo de gradiente de uma função de erro quadrática, que tem solução exata, e compara a trajetória numérica com ela para três tamanhos de passo.
+1. **Método de Euler.** Resolve o fluxo de gradiente de uma função de erro quadrática, que tem solução exata, e compara a trajetória numérica com ela para seis tamanhos de passo.
 2. **Descida do gradiente.** Implementa o algoritmo de forma independente, sem usar o método de Euler, com o mesmo ponto de partida e o mesmo passo.
 3. **Igualdade.** Compara as duas sequências e mostra que são iguais.
 4. **Otimização na prática.** Ajusta uma reta a dados por regressão linear usando a descida do gradiente, mostrando a reta se aproximando dos pontos e o efeito de diferentes taxas de aprendizado.

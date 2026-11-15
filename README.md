@@ -1,6 +1,7 @@
 <img width="2535" height="470" alt="CapaEDO" src="https://github.com/user-attachments/assets/2da7d92e-183d-4c36-b1e4-78909c77e9d5" />
 
-<h1 align="center">Como a aplicação do método de Euler à descida do gradiente auxilia no treinamento de modelos de machine learning?</h1>
+<h1 align="center">Otimização por descida do gradiente: a equivalência com o método
+de Euler e sua aplicação à regressão linear</h1>
 
 <p align="center">
   <em>Otimização por descida do gradiente: a equivalência com o método de Euler e sua aplicação à regressão linear</em>

@@ -1,15 +1,24 @@
 <img width="2535" height="470" alt="CapaEDO" src="https://github.com/user-attachments/assets/2da7d92e-183d-4c36-b1e4-78909c77e9d5" />
 
-<div align="center">
-  
-# Como a aplicação do método de Euler à descida do gradiente auxilia no treinamento de modelos de machine learning?
-</div>
+<h1 align="center">Como a aplicação do método de Euler à descida do gradiente auxilia no treinamento de modelos de machine learning?</h1>
+
+<p align="center">
+  <em>Otimização por descida do gradiente: a equivalência com o método de Euler e sua aplicação à regressão linear</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/licença-GPL--3.0-green" alt="Licença GPL-3.0">
+  <img src="https://img.shields.io/badge/Jupyter-notebook-orange" alt="Jupyter Notebook">
+</p>
 
 Projeto da disciplina de Equações Diferenciais, desenvolvido na Ilum Escola de Ciência (CNPEM).
 
 ## Sobre o projeto
 
-Treinar um modelo de machine learning é um problema de otimização: é preciso ajustar parâmetros para minimizar uma função de erro. O algoritmo mais simples para isso é a descida do gradiente. Este projeto mostra que a descida do gradiente é o método de Euler aplicado a uma equação diferencial, o fluxo de gradiente, e usa essa conexão para entender como a otimização funciona na prática.
+Treinar um modelo de machine learning é um problema de otimização: é preciso ajustar parâmetros para minimizar uma função de erro, que mede o quanto o modelo erra. O algoritmo mais usado para isso é a descida do gradiente, que a cada passo move os parâmetros no sentido contrário ao gradiente, com um tamanho de passo chamado taxa de aprendizado.
+
+Este projeto mostra que a descida do gradiente é o método de Euler aplicado a uma equação diferencial, o fluxo de gradiente, e usa essa conexão para explicar por que a taxa de aprendizado não pode ser grande demais.
 
 ## A ideia central
 
@@ -27,7 +36,7 @@ Essa é exatamente a atualização da descida do gradiente, com a taxa de aprend
 
 O notebook `Projetofinal_EDO.ipynb` segue o raciocínio do trabalho em quatro partes:
 
-1. **Método de Euler.** Resolve o fluxo de gradiente de uma função de erro quadrática, que tem solução exata, e compara a trajetória numérica com ela para seis tamanhos de passo.
+1. **Método de Euler.** Resolve o fluxo de gradiente de uma função de erro quadrática, que tem solução exata, e compara a trajetória numérica com ela para três tamanhos de passo.
 2. **Descida do gradiente.** Implementa o algoritmo de forma independente, sem usar o método de Euler, com o mesmo ponto de partida e o mesmo passo.
 3. **Igualdade.** Compara as duas sequências e mostra que são iguais.
 4. **Otimização na prática.** Ajusta uma reta a dados por regressão linear usando a descida do gradiente, mostrando a reta se aproximando dos pontos e o efeito de diferentes taxas de aprendizado.
@@ -64,15 +73,19 @@ O notebook não grava arquivos: os gráficos aparecem na própria tela, e os dad
 
 ## Referências
 
-BOYD, S.; VANDENBERGHE, L. **Convex optimization**. Cambridge: Cambridge University Press, 2004. Disponível em: https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf. 
+BOYCE, W. E.; DIPRIMA, R. C. **Elementary differential equations and boundary value problems**. 10. ed. Hoboken: Wiley, 2012.
 
-GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. **Deep learning**. Cambridge: MIT Press, 2016. Disponível em: https://www.deeplearningbook.org/. .
+BOYD, S.; VANDENBERGHE, L. **Convex optimization**. Cambridge: Cambridge University Press, 2004. Disponível em: https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf. Acesso em: 13 nov. 2026.
 
-MÉTODO de Euler. In: FÍSICA COMPUTACIONAL. Porto Alegre: UFRGS, [s.d.]. Disponível em: https://fiscomp.if.ufrgs.br/index.php/M%C3%A9todo_de_Euler. 
+E, W. A proposal on machine learning via dynamical systems. **Communications in Mathematics and Statistics**, v. 5, n. 1, p. 1-11, 2017. DOI: https://doi.org/10.1007/s40304-017-0103-z.
 
-SHIEBLER, D. Gradient descent is Euler's method. **Dan Shiebler**, 28 nov. 2020. Disponível em: https://danshiebler.com/2020-11-28-gradient-descent/. 
+GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. **Deep learning**. Cambridge: MIT Press, 2016. Disponível em: https://www.deeplearningbook.org/. Acesso em: 13 nov. 2026.
 
-ANTHROPIC. **Claude Sonnet 5.5**. Modelo de linguagem de grande escala. [S. l.]: Anthropic, 2026. Disponível em: https://claude.ai. 
+MÉTODO de Euler. In: FÍSICA COMPUTACIONAL. Porto Alegre: UFRGS, [s.d.]. Disponível em: https://fiscomp.if.ufrgs.br/index.php/M%C3%A9todo_de_Euler. Acesso em: 13 nov. 2026.
+
+SHIEBLER, D. Gradient descent is Euler's method. **Dan Shiebler**, 28 nov. 2020. Disponível em: https://danshiebler.com/2020-11-28-gradient-descent/. Acesso em: 13 nov. 2026.
+
+SÜLI, E.; MAYERS, D. F. **An introduction to numerical analysis**. Cambridge: Cambridge University Press, 2003.
 
 ## Autores
 
